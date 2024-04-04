@@ -64,8 +64,6 @@ inputs = [
     gr.CheckboxGroup(label="Regions of Italy you want to visit", choices=["Tuscany", "Lombardy", "Sicily", "Veneto"]),
 ]
 
-
-
 demo = gr.Interface(
     fn=generate_personalized_itinerary,
     inputs=inputs,
