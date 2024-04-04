@@ -73,4 +73,5 @@ demo = gr.Interface(
 )
 
 if __name__ == "__main__":
+    # If share=True, gradio will create a public link for your interface
     demo.launch(share=True)
